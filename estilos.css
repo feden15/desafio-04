@@ -31,11 +31,19 @@ h1 {
     border-right-color: rgb(36, 37, 40);
 }
 
+hr {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 11px dotted rgb(168, 192, 184);
+    border-bottom: hidden;
+}
+
 fieldset {
     background-color: rgb(214, 225, 221);
     border: 0px;
     border-radius: 2px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     padding-bottom: 10px;
 }
 
