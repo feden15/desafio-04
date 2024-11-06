@@ -8,7 +8,62 @@
   </head>
 
   <body>
-    
+    <h1>Vení al Gym! 💪🏼</h1>
+
+    <form action="#">
+
+      <fieldset>
+
+        <legend>🙋🏼‍♂️Datos Personales👀</legend>
+
+        <div>
+          <label for="nombre">Nombre: *</label>
+          <input type="text" id="nombre" required>
+        </div>
+
+        <div>
+          <label for="apellido">Apellido: *</label>
+          <input type="text" id="apellido" required>
+        </div>
+
+        <div>
+          <label for="documento">Documento: *</label>
+          <input type="text" id="documento" required>
+        </div>
+
+        <div>
+          <label for="nacionalidad">Nacionalidad: *</label>
+          <select aria-placeholder="Seleccionar" id="nacionalidad" required>
+            <option value="seleccionar">- Seleccionar -</option>
+            <option value="argentina">Argentina</option>
+            <option value="brasileña">Brasileña</option>
+            <option value="uruguaya">Uruguaya</option>
+            <option value="otra">Otra</option>
+          </select>
+        </div>
+
+        <div> 
+          <label for="descripcion">Contanos un poco de vos...</label>
+          <textarea name="" id="descripcion"></textarea>
+        </div>
+
+        <label>Sexo: *</label>
+        <div>
+          <div>
+            <input id="lbl-femenino" class="inputs-selectores" type="radio" name="sexo" required checked>
+            <label class="labels-selectores" for="lbl-femenino">Femenino</label>
+          </div>
+          <div>
+            <input id="lbl-masculino" class="inputs-selectores" type="radio" name="sexo" required>
+            <label class="labels-selectores" for="lbl-masculino">Masculino</label>
+          </div>
+          <div>
+            <input id="lbl-otro" class="inputs-selectores" type="radio" name="sexo" required>
+            <label class="labels-selectores" for="lbl-otro">Otro</label>
+          </div>    
+        </div>
+
+      </fieldset> <!-- Datos Personales -->
 
     <script type="module" src="/main.js"></script>
   </body>
