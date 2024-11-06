@@ -36,15 +36,17 @@ fieldset {
     border: 0px;
     border-radius: 2px;
     margin-bottom: 60px;
+    padding-bottom: 10px;
 }
 
 label {
     text-align: center;
     display: block;
-    width: 250px;
+    width: max-content;
     margin: auto;
     margin-bottom: 5px;
     margin-top: 10px;
+    padding-left: 10px;
 }
 
 input {
@@ -90,7 +92,7 @@ button {
     background-color: rgb(49, 63, 58);
     border-radius: 3px;
     border-color: rgb(82, 108, 98);
-    color: rgb(169, 194, 185);
+    color: rgb(124, 146, 138);
     padding: 7px;
 }
 
@@ -157,3 +159,27 @@ button {
 }
 
 /* /Campo final */
+
+/* Estilos cuando se interactúa con la página */
+
+fieldset:focus-within {
+    background-color: rgb(168, 192, 184);
+}
+
+fieldset:focus-within input:focus {
+    background-color: rgb(82, 109, 99);
+}
+
+fieldset:focus-within textarea:focus {
+    background-color: rgb(82, 109, 99);
+}
+
+fieldset:focus-within legend {
+    background-color: rgb(49, 63, 58);
+}
+
+button:focus-within {
+    background-color: rgb(164, 190, 186);
+}
+
+/* /Estilos cuando se interactúa con la página */
