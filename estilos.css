@@ -13,3 +13,20 @@ html {
     width: 750px;
     margin: auto;
 }
+
+h1 {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 35px;
+    width: 700px;
+    margin: auto;
+    color: rgb(232, 233, 236);
+    text-align: center;
+    border-top: 10px solid rgb(82, 109, 99);
+    border-bottom: 10px solid rgb(82, 109, 99);
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 10px;
+    border-left-color: rgb(36, 37, 40);
+    border-right-color: rgb(36, 37, 40);
+}
