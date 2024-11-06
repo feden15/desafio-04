@@ -93,3 +93,28 @@ button {
     color: rgb(169, 194, 185);
     padding: 7px;
 }
+
+/* Campo Sexo */
+
+.selectores-sexo {
+    width: min-content;
+    margin: auto;
+    display: flex;
+}
+
+.campos-selectores {
+    width: min-content;
+    display: flex;
+}
+
+.inputs-selectores {
+    width: auto;
+    margin: 3px;
+}
+
+.labels-selectores {
+    width: min-content;
+    margin-right: 5px;
+}
+
+/* /Campo Sexo */
