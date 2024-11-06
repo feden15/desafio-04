@@ -118,3 +118,42 @@ button {
 }
 
 /* /Campo Sexo */
+
+/* Campo Actividades */
+
+.labels-info-sedes {
+    text-align: start;
+    display: inline-block;
+    width: max-content;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.labels-sedes {
+    text-align: start;
+    display: inline-block;
+    width: max-content;
+    margin-top: 10px;
+}
+
+.selectores {
+    width: min-content;
+    display: flex;
+}
+
+/* /Campo Actividades */
+
+/* Campo final (fuera de los fieldset) */
+
+.campos-finales {
+    display: flex;
+    width: min-content;
+}
+
+.labels-final {
+    width: max-content;
+    margin-left: 5px;
+    color: rgb(232, 233, 236);
+}
+
+/* /Campo final */
