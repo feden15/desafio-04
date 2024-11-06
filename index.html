@@ -11,28 +11,28 @@
   <body>
     <h1>Vení al Gym! 💪🏼</h1>
 
-    <form action="#">
+    <form action="https://postman-echo.com/post" method="POST">
 
       <fieldset> <!-- Datos Personales -->
 
         <legend>🙋🏼‍♂️Datos Personales👀</legend>
 
-        <div>
+        <div class="label-input">
           <label for="nombre">Nombre: *</label>
           <input type="text" id="nombre" required>
         </div>
 
-        <div>
+        <div class="label-input">
           <label for="apellido">Apellido: *</label>
           <input type="text" id="apellido" required>
         </div>
 
-        <div>
+        <div class="label-input">
           <label for="documento">Documento: *</label>
           <input type="text" id="documento" required>
         </div>
 
-        <div>
+        <div class="label-input">
           <label for="nacionalidad">Nacionalidad: *</label>
           <select aria-placeholder="Seleccionar" id="nacionalidad" required>
             <option value="seleccionar">- Seleccionar -</option>
@@ -43,7 +43,7 @@
           </select>
         </div>
 
-        <div> 
+        <div class="label-input"> 
           <label for="descripcion">Contanos un poco de vos...</label>
           <textarea name="" id="descripcion"></textarea>
         </div>
