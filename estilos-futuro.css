@@ -17,9 +17,9 @@
 
 :root {
     --van-dyke: #4E3D42;
-    --white: #FBFBFB;
+    --white: #FBFBFB; /* rgb(251, 251, 251) */
     --cinnabar: #E94F37;
-    --argentinan-blue: #48ACF0;
+    --argentinan-blue: #48ACF0; /* (rgb(72, 172, 240)) */
     --steel-blue: #3F7CAC;
 }
 
@@ -27,10 +27,6 @@ body {
     background-image: url(public/img/imagen-fondo.webp);
     background-position: center center;
     background-size: cover;
-}
-
-html {
-    
 }
 
 h1 {
@@ -92,7 +88,7 @@ label {
     margin: auto;
     width: max-content;
     color: var(--white);
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-top: 20px;
 }
 
@@ -114,6 +110,17 @@ select {
     width: 500px;
     height: 25px;
     margin: auto;
+}
+
+button {
+    width: max-content;
+    font-size: 15px;
+    background-color: var(--argentinan-blue);
+    border-radius: 3px;
+    border-color: var(--steel-blue);
+    color: black;
+    font-weight: bold;
+    padding: 10px;
 }
 
 ::placeholder {
@@ -139,25 +146,89 @@ select {
     display: flex;
 }
 
-.inputs-sexo {
+/* /Campo Sexo */
+
+/* Campo Sexo-ACtividad */
+
+.inputs-sexo-actividad {
     width: max-content;
     margin: 10px;
 }
 
-.labels-sexo {
+.labels-sexo-actividad {
     width: min-content;
     margin-right: 20px;
     margin-top: 7px;
 }
 
-.inputs-labels-sexo {
+.inputs-labels-sexo-actividad {
     width: min-content;
     display: flex;
+    margin: auto;
 }
 
-/* /Campo Sexo */
+/* /Campo Sexo-Actividad */
 
+/* Campo Actividad */
 
+.labels-sedes {
+    text-align: start;
+    display: flex;
+    width: max-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+/* /Campo Actividad */
+
+/* Parte final (fuera fieldsets) */
+
+.campo-final {
+    margin: auto;
+    display: flex;
+    width: min-content;
+}
+
+.label-final {
+    font-size: 25px;
+    width: max-content;
+    margin: auto;
+    color: var(--white);
+}
+
+.inputs-final {
+    width: max-content;
+    margin-right: 10px;
+    display: block;
+}
+
+/* /Parte final */
+
+/* Interactividad */
+
+fieldset:focus-within {
+    background-color: rgb(0, 0, 1, 0.5);
+}
+
+fieldset:focus-within input:focus {
+    background-color: rgb(72, 172, 240, 0.6); /* color "argentinan-blue" con sombra */
+}
+
+fieldset:focus-within textarea:focus {
+    background-color: rgb(72, 172, 240, 0.6);
+}
+
+fieldset:focus-within legend {
+    background-color: rgb(72, 172, 240, 0.8);
+}
+
+button:focus-within {
+    background-color: var(--steel-blue);
+    border: var(--argentinan-blue);
+}
+
+/* /Interactividad */
 
 
 

@@ -50,17 +50,17 @@
 
         <label>Sexo: *</label>
         <div class="selectores-sexo">
-          <div class="inputs-labels-sexo">
-            <input class="inputs-sexo" id="lbl-femenino" type="radio" name="sexo" required checked>
-            <label class="labels-sexo" for="lbl-femenino">Femenino</label>
+          <div class="inputs-labels-sexo-actividad">
+            <input class="inputs-sexo-actividad" id="lbl-femenino" type="radio" name="sexo" required checked>
+            <label class="labels-sexo-actividad" for="lbl-femenino">Femenino</label>
           </div>
-          <div class="inputs-labels-sexo">
-            <input class="inputs-sexo" id="lbl-masculino" type="radio" name="sexo" required>
-            <label class="labels-sexo" for="lbl-masculino">Masculino</label>
+          <div class="inputs-labels-sexo-actividad">
+            <input class="inputs-sexo-actividad" id="lbl-masculino" type="radio" name="sexo" required>
+            <label class="labels-sexo-actividad" for="lbl-masculino">Masculino</label>
           </div>
-          <div class="inputs-labels-sexo">
-            <input class="inputs-sexo" id="lbl-otro" type="radio" name="sexo" required>
-            <label class="labels-sexo" for="lbl-otro">Otro</label>
+          <div class="inputs-labels-sexo-actividad">
+            <input class="inputs-sexo-actividad" id="lbl-otro" type="radio" name="sexo" required>
+            <label class="labels-sexo-actividad" for="lbl-otro">Otro</label>
           </div>    
         </div>
 
@@ -91,7 +91,7 @@
         <legend>🚴🏼Actividades🤸🏼</legend>
         <br>
 
-        <label class="labels-info-sedes">Por favor, indicá cuáles actividades te interesan</label>
+        <label class="labels-sedes">Por favor, indicá cuáles actividades te interesan</label>
         <br>
         <br>
 
@@ -99,20 +99,23 @@
         <br>
         <br>
 
-        <div  class="selectores">
-
-            <input id="lbl-basquet-palermo" class="inputs-selectores" type="checkbox">
-            <label class="labels-selectores" for="lbl-basquet-palermo">Básquet</label>
-
-            <input id="lbl-boxeo-palermo" class="inputs-selectores" type="checkbox">
-            <label class="labels-selectores" for="lbl-boxeo-palermo">Boxeo</label>
-
-            <input id="lbl-futbol-palermo" class="inputs-selectores" type="checkbox">
-            <label class="labels-selectores" for="lbl-futbol-palermo">Fútbol</label>
-
-            <input id="lbl-tenis-palermo" class="inputs-selectores" type="checkbox">
-            <label class="labels-selectores" for="lbl-tenis-palermo">Tenis</label>
-
+        <div  class="inputs-labels-sexo-actividad">
+          <div class="inputs-labels-sexo-actividad">
+            <input class="inputs-sexo-actividad" id="lbl-basquet-palermo" type="checkbox">
+            <label class="labels-sexo-actividad" for="lbl-basquet-palermo">Básquet</label>
+          </div>
+          <div class="inputs-labels-sexo-actividad">
+            <input class="inputs-sexo-actividad" id="lbl-boxeo-palermo" type="checkbox">
+            <label class="labels-sexo-actividad" for="lbl-boxeo-palermo">Boxeo</label>
+          </div>
+          <div class="inputs-labels-sexo-actividad">
+            <input class="inputs-sexo-actividad" id="lbl-futbol-palermo" type="checkbox">
+            <label class="labels-sexo-actividad" for="lbl-futbol-palermo">Fútbol</label>
+          </div>
+          <div class="inputs-labels-sexo-actividad">
+            <input class="inputs-sexo-actividad" id="lbl-tenis-palermo" type="checkbox">
+            <label class="labels-sexo-actividad" for="lbl-tenis-palermo">Tenis</label>
+          </div>
         </div>
         <br>
 
@@ -120,37 +123,39 @@
         <br>
         <br>
 
-        <div  class="selectores">
-          
-            <input id="lbl-basquet-rosario" class="inputs-selectores" type="checkbox">
-            <label class="labels-selectores" for="lbl-basquet-rosario">Básquet</label>
-          
-            <input id="lbl-boxeo-rosario" class="inputs-selectores" type="checkbox">
-            <label class="labels-selectores" for="lbl-boxeo-rosario">Boxeo</label>
-          
-            <input id="lbl-futbol-rosario" class="inputs-selectores" type="checkbox">
-            <label class="labels-selectores" for="lbl-futbol-rosario">Fútbol</label>
-          
-            <input id="lbl-tenis-rosario" class="inputs-selectores" type="checkbox">
-            <label class="labels-selectores" for="lbl-tenis-rosario">Tenis</label>
-        
+        <div  class="inputs-labels-sexo-actividad">
+          <div class="inputs-labels-sexo-actividad">
+            <input class="inputs-sexo-actividad" id="lbl-basquet-rosario" type="checkbox">
+            <label class="labels-sexo-actividad" for="lbl-basquet-rosario">Básquet</label>
+          </div>
+          <div class="inputs-labels-sexo-actividad">
+            <input class="inputs-sexo-actividad" id="lbl-boxeo-rosario" type="checkbox">
+            <label class="labels-sexo-actividad" for="lbl-boxeo-rosario">Boxeo</label>
+          </div>
+          <div class="inputs-labels-sexo-actividad">
+            <input class="inputs-sexo-actividad" id="lbl-futbol-rosario" type="checkbox">
+            <label class="labels-sexo-actividad" for="lbl-futbol-rosario">Fútbol</label>
+          </div>
+          <div class="inputs-labels-sexo-actividad">
+            <input class="inputs-sexo-actividad" id="lbl-tenis-rosario" type="checkbox">
+            <label class="labels-sexo-actividad" for="lbl-tenis-rosario">Tenis</label>
+          </div>
         </div>
 
       </fieldset> <!-- /Actividades -->
 
- 
-      <div class="campos-finales">
-        <input class="inputs-selectores" id="lbl-acepto-condiciones" type="checkbox" required>
-        <label class="labels-final" for="lbl-acepto-condiciones">Acepto las condiciones*</label>
+      <div class="campo-final">
+        <input class="inputs-final" id="lbl-acepto-condiciones" type="checkbox" required>
+        <label class="label-final" for="lbl-acepto-condiciones">Acepto las condiciones*</label>
       </div>
 
-      <div class="campos-finales">
-        <input class="inputs-selectores" id="lbl-acepto-novedades" type="checkbox" checked>
-        <label class="labels-final" for="lbl-acepto-novedades">Deseo recibir novedades</label>
+      <div class="campo-final">
+        <input class="inputs-final" id="lbl-acepto-novedades" type="checkbox" checked>
+        <label class="label-final" for="lbl-acepto-novedades">Deseo recibir novedades</label>
       </div>
       <br>
 
-      <label class="labels-final">*: campo obligatorio.</label>
+      <label>*: campo obligatorio.</label>
       <br>
 
       <div style="text-align: center;">
