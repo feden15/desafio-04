@@ -25,11 +25,33 @@
 
 body {
     background-image: url(public/img/imagen-fondo.webp);
+    background-position: center center;
+    background-size: cover;
+}
+
+html {
+    
+}
+
+h1 {
+    font-family: "Cinzel", serif;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 900;
+    border-width: 20px;
+    border-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-style: solid;
+    border-right: hidden;
+    border-left: hidden;
+    color: var(--white);
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 fieldset {
-    width: 1000px;
-    height: auto;
+    width: 60%;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 5px;
@@ -41,29 +63,12 @@ fieldset {
 }
 
 hr {
-    border: hidden;
+    border-width: 10px;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    margin-bottom: 25px;
 }
 
-html {
-    width: 100vh;
-    margin: auto;
-}
-
-h1 {
-    font-family: "Cinzel", serif;
-    font-size: 90px;
-    font-weight: 900;
-    background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 5px;
-    border-color: rgba(0, 0, 0, 0.9);
-    border-style: groove;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-    color: var(--white);
-    width: max-content;
-    margin: auto;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
 
 legend {
     font-family: "Cinzel", serif;
@@ -79,26 +84,81 @@ legend {
 }
 
 label {
+    font-variant: small-caps;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
     display: flex;
+    margin: auto;
     width: max-content;
     color: var(--white);
     margin-bottom: 5px;
-    margin-top: 10px;
-    padding-left: 10px;
-    margin-right: 5px;
+    margin-top: 20px;
 }
 
 input {
-    display: flex;
-    width: 600px;
+    display: block;
+    width: 500px;
+    height: 15px;
+    margin: auto;
 }
 
-.label-input {
-    display: flex;
-    width: 700px;
+textarea {
+    display: block;
+    width: 500px;
+    height: 100px;
     margin: auto;
+}
+
+select {
+    width: 500px;
+    height: 25px;
+    margin: auto;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+/* Campo Datos Personales */
+
+.label-input {
+    margin: auto;
+    display: block;
+    width: 500px;
     margin-top: 10px;
 }
+
+/* /Campo Datos Personales */
+
+/* Campo Sexo */
+
+.selectores-sexo {
+    width: min-content;
+    margin: auto;
+    display: flex;
+}
+
+.inputs-sexo {
+    width: max-content;
+    margin: 10px;
+}
+
+.labels-sexo {
+    width: min-content;
+    margin-right: 20px;
+    margin-top: 7px;
+}
+
+.inputs-labels-sexo {
+    width: min-content;
+    display: flex;
+}
+
+/* /Campo Sexo */
+
+
+
 
 
 
