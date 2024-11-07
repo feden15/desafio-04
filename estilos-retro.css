@@ -6,7 +6,8 @@
 }
 
 html {
-    background-color: grey;
+    background-image: url(public/img/logotipos-fondo.webp);
+    background-position: center;
 }
 
 body {
@@ -19,28 +20,35 @@ hr {
 }
 
 h1 {
-    font-family: monospace;
-    font-weight: bold;
+    background-color: rgb(220,221,221);
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     width: max-content;
-    margin: auto;   
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: 3px solid rgb(0, 0, 0, 0.5);
+    border-left: hidden;
+    border-top: hidden;
+    box-shadow: 10px 10px 50px rgb(0, 0, 0);
 }
 
 fieldset {
-    background-color: whitesmoke;
-    border: 5px solid rgb(0, 0, 0, 0.5);
     margin-top: 30px;
     border-left: hidden;
     border-top: hidden;
-    border-bottom-style: solid;
-    border-right-style: solid;
+    background-color: #C0C0C0;
+    box-shadow: 10px 10px 50px rgb(0, 0, 0);
 }
 
 legend {
+    color: rgb(237,237,237);
     width: max-content;
     margin: auto;
-    background-color: grey;
-    border:1px solid white;
+    font-size: 25px;
+    background-color: rgb(71,79,81);
+    border: 1px solid white;
+    margin-bottom: 20px;
 }
 
 label {
