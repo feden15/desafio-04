@@ -13,6 +13,11 @@ html {
     margin: auto;
 }
 
+form {
+    width: 60%;
+    margin: auto;
+}
+
 h1 {
     font-family: "Poppins";
     font-weight: bold;
@@ -39,7 +44,7 @@ hr {
 }
 
 fieldset {
-    width: 60%;
+    width: 100%;
     margin: auto;
     background-color: rgb(214, 225, 221);
     border: 0px;
@@ -102,7 +107,9 @@ button {
     border-radius: 3px;
     border-color: rgb(82, 108, 98);
     color: rgb(124, 146, 138);
-    padding: 7px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 /* Campo Sexo */
@@ -127,28 +134,32 @@ button {
 .inputs-labels-sexo-actividad {
     width: min-content;
     display: flex;
-    margin: auto;
 }
 
 /* /Campo Sexo */
 
 /* Campo Actividades */
 
-.inputs-sexo-actividad {
+.inputs-actividad {
     width: max-content;
-    margin: 10px;
 }
 
-.labels-sexo-actividad {
+.inputs-labels-actividad {
     width: min-content;
-    margin-right: 20px;
-    margin-top: 7px;
-}
-
-.inputs-labels-sexo-actividad {
-    width: min-content;
-    display: flex;
+    display: inline;
     margin: auto;
+}
+
+.labels-sedes {
+    width: max-conten;
+    font-size: 20px;
+    display: inline;
+}
+
+#labels-info-actividades {
+    font-size: 14px;
+    width: max-content;
+    display: inline;
 }
 
 /* /Campo Actividades */
@@ -156,21 +167,28 @@ button {
 /* Campo final (fuera de los fieldset) */
 
 .campo-final {
-    margin: auto;
     display: flex;
     width: min-content;
 }
 
 .label-final {
-    font-size: 25px;
+    color: white;
+    font-size: 20px;
     width: max-content;
-    margin: auto;
+}
+
+#lbl-final {
+    color: white;
+    font-size: 15px;
+    width: max-content;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: -20px;
 }
 
 .inputs-final {
     width: max-content;
     margin-right: 10px;
-    display: block;
 }
 
 /* /Campo final */

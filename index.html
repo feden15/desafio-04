@@ -34,8 +34,8 @@
 
         <div class="label-input">
           <label for="nacionalidad">Nacionalidad: *</label>
-          <select aria-placeholder="Seleccionar" id="nacionalidad" required>
-            <option value="seleccionar">- Seleccionar -</option>
+          <select id="nacionalidad" size="1" required>
+            <option value="">- Seleccionar -</option>
             <option value="argentina">Argentina</option>
             <option value="brasileña">Brasileña</option>
             <option value="uruguaya">Uruguaya</option>
@@ -45,7 +45,7 @@
 
         <div class="label-input"> 
           <label for="descripcion">Contanos un poco de vos...</label>
-          <textarea name="" id="descripcion"></textarea>
+          <textarea name="descripcion" id="descripcion"></textarea>
         </div>
 
         <label>Sexo: *</label>
@@ -91,7 +91,7 @@
         <legend>🚴🏼Actividades🤸🏼</legend>
         <br>
 
-        <label class="labels-sedes">Por favor, indicá cuáles actividades te interesan</label>
+        <label id="labels-info-actividades">Por favor, indicá cuáles actividades te interesan</label>
         <br>
         <br>
 
@@ -155,8 +155,8 @@
       </div>
       <br>
 
-      <label>*: campo obligatorio.</label>
-      <br>
+      <label id="lbl-final">*: campo obligatorio.</label>
+      <br>      
 
       <div style="text-align: center;">
         <button type="submit">Iniciar afiliación</button>
