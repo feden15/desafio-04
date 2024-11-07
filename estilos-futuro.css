@@ -24,7 +24,7 @@
 }
 
 body {
-    background-image: url(public/img/imagen-fondo.webp);
+    background-image: url(img/fondo-futuro.webp);
     background-position: center center;
     background-size: cover;
 }
@@ -148,7 +148,7 @@ button {
 
 /* /Campo Sexo */
 
-/* Campo Sexo-ACtividad */
+/* Campo Sexo-Actividad */
 
 .inputs-sexo-actividad {
     width: max-content;

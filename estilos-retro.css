@@ -6,7 +6,7 @@
 }
 
 html {
-    background-image: url(public/img/logotipos-fondo.webp);
+    background-image: url(img/fondo-retro.webp);
     background-position: center;
 }
 
@@ -20,25 +20,25 @@ hr {
 }
 
 h1 {
-    background-color: rgb(220,221,221);
+    color: rgb(237,237,237);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     width: max-content;
     margin: auto;
     margin-top: 20px;
     padding: 10px;
-    border: 3px solid rgb(0, 0, 0, 0.5);
-    border-left: hidden;
-    border-top: hidden;
-    box-shadow: 10px 10px 50px rgb(0, 0, 0);
+    border: 5px rgb(177, 177, 177);
+    border-style: ridge;
+    background-color: rgb(71,79,81);
+    box-shadow: 10px 10px 50px rgb(0, 0, 0); 
 }
 
 fieldset {
     margin-top: 30px;
-    border-left: hidden;
-    border-top: hidden;
-    background-color: #C0C0C0;
-    box-shadow: 10px 10px 50px rgb(0, 0, 0);
+    border: 5px rgb(177, 177, 177);
+    border-style: ridge;
+    background-color: rgb(212, 210, 210);
+    box-shadow: 10px 10px 50px rgb(0, 0, 0);    padding-bottom: 20px;
 }
 
 legend {
@@ -52,13 +52,156 @@ legend {
 }
 
 label {
+    font-size: 20px;
     display: flex;
-    width: max-content;
-    margin-left: 10px;
+    width: 400px;
+    margin-bottom: 5px;
+    margin: auto;
 }
 
 input {
     display: flex;
-    width: 300px;
+    width: 400px;
+    margin: auto;
 }
 
+select {
+    display: flex;
+    width: 400px;
+    height: 30px;
+}
+
+.label-input {
+    width: fit-content;
+    margin: auto;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+}
+
+button {
+    width: 350px;
+    font-size: 15px;
+    border: 5px rgb(177, 177, 177);
+    border-style: ridge;
+    background-color: rgb(212, 210, 210);
+    box-shadow: 10px 10px 50px rgb(0, 0, 0); 
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Campo Sexo */
+
+.selectores-sexo {
+    width: min-content;
+    margin: auto;
+    display: flex;
+}
+
+/* /Campo Sexo */
+
+/* Campo Sexo-Actividad */
+
+.inputs-sexo-actividad {
+    width: max-content;
+    margin: 10px;
+}
+
+.labels-sexo-actividad {
+    width: min-content;
+    margin-right: 20px;
+}
+
+.inputs-labels-sexo-actividad {
+    width: min-content;
+    display: flex;
+    margin: auto;
+    margin-top: -5px;
+}
+
+/* /Campo Sexo-Actividad */
+
+/* Campo Actividad */
+
+.labels-sedes {
+    width: fit-content;
+    margin: auto;
+}
+
+#labels-info-actividades {
+    font-size: 15px;
+    width: fit-content;
+    margin: auto;
+}
+
+/* /Campo Actividad */
+
+/* Parte final (fuera fieldsets) */
+
+.campo-final {
+    width: min-content;
+    display: flex;
+    margin: auto;
+    border: 5px rgb(177, 177, 177);
+    border-style: ridge;
+    background-color: rgb(212, 210, 210);
+    box-shadow: 10px 10px 50px rgb(0, 0, 0);  
+    margin-top: 30px;
+}
+
+.label-final {
+    color: black;
+    width: max-content;
+    margin-left: 10px;
+}
+
+.inputs-final {
+    width: max-content;
+}
+
+#lbl-final {
+    width: max-content;
+    display: flex;
+    margin: auto;
+    border: 5px rgb(177, 177, 177);
+    border-style: ridge;
+    background-color: rgb(212, 210, 210);
+    box-shadow: 10px 10px 50px rgb(0, 0, 0);
+}
+
+/* /Parte final */
+
+/* Interactividad */
+
+fieldset:focus-within {
+    background-color: rgb(212, 210, 210);
+}
+
+fieldset:focus-within input:focus {
+    background-color: rgb(0, 0, 128);
+    color: white;
+}
+
+fieldset:focus-within input::placeholder {
+    background-color: rgb(0, 0, 128);
+    color: white;
+}
+
+fieldset:focus-within textarea:focus {
+    background-color: rgb(0, 0, 128);
+    color: white;
+}
+
+fieldset:focus-within legend {
+    background-color: rgb(0, 0, 128);
+}
+
+button:focus-within {
+    background-color: rgb(0, 0, 128);
+    color: white;
+}
+
+/* /Interactividad */
